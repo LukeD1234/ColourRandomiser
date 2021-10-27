@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    height: 609px;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+    border-right: 1.5px solid #333;
+}
+
+.button {
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 300px;
+    border: 2px solid #333;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 18px;
+}
+
+.button:active {
+    transform: scale(.98);
+}
+
